@@ -1,0 +1,94 @@
+#hcSearcheIcons hcsearche-icon {
+    box-sizing: content-box;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 38px;
+    background-color: #fff;
+    vertical-align: text-bottom;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 5px;
+    color: #1a73e8;
+    border: 1px solid #6c757d;
+    border-radius: 4px;
+    cursor: pointer;
+    overflow: hidden;
+    word-break: keep-all;
+}
+
+/* 通过边距实现只显示一个字 */
+#hcSearcheIcons hcsearche-icon:first-letter {
+    margin-left: 9px;
+    margin-right: 50px;
+}
+
+#hcSearcheIcons.hcSearcheIconsExample hcsearche-icon {
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    margin: 0
+}
+
+#hcSearcheIcons.hcSearcheIconsExample hcsearche-icon:first-letter {
+    margin-left: 1px;
+    margin-right: 50px;
+}
+
+#hcSearcheIcons hcsearche-icon:hover {
+    background-color: #f6f8fa;
+    border-color: #6c757d;
+}
+
+
+#hcSearcheIcons hcsearche-icon[data-seclass=red] {
+    font-size: 0;
+    background-image: url("/lhjc/app/images/icon/red.png");
+}
+
+#hcSearcheIcons hcsearche-icon[data-seclass=normal] {
+    font-size: 0;
+    background-image: url("/lhjc/app/images/icon/normal.png");
+}
+
+
+#hcSearcheIcons hcsearche-icon[data-seclass=black] {
+    font-size: 0;
+    background-image: url("/lhjc/app/images/icon/black.png");
+}
+
+#hcSearcheIcons hcsearche-icon[data-seclass=conerr] {
+    font-size: 0;
+    background-image: url("../images/conerr.png");
+}
+
+#hcSearcheIcons hcsearche-icon[data-seclass=red4ext] {
+    font-size: 0;
+    background-image: url("../images/red.png");
+}
+
+#hcSearcheIcons hcsearche-icon[data-seclass=normal4ext] {
+    font-size: 0;
+    background-image: url("../images/normal.png");
+}
+
+
+#hcSearcheIcons hcsearche-icon[data-seclass=black4ext] {
+    font-size: 0;
+    background-image: url("../images/black.png");
+}
+#hcSearcheIcons hcsearche-icon[data-seclass=conerr4ext] {
+    font-size: 0;
+    background-image: url("../images/conerr.png");
+}
+
+
+
